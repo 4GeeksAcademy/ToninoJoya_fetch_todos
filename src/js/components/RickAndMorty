@@ -1,0 +1,22 @@
+	// const [character, setCharacters] = useState([])
+
+	// const getAllCharacters = () => {
+	// 	fetch(`${urlBase}character`)
+	// 		.then((response) => response.json())
+	// 		.then((data) => { setCharacters(data.results)})
+	// 		.catch((error) => console.log(error))
+	// }
+
+	// useEffect(() => {
+	// 	getAllCharacters()
+	// }, [])
+
+	// return (
+	<!-- // 	<div className="text-center"> -->
+	// 		{character.map((item)=>(
+	<!-- // 			<p key={item.id}> -->
+	// 				{`Hola que tal ${item.name}`}
+	<!-- // 			</p> -->
+	// 		))}
+	<!-- // 	</div> -->
+	// );

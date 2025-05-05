@@ -9,3 +9,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: rgba(255, 212, 212, 0.384);
+}
+h1 {
+    font-weight: 10;
+}
+
+input {
+    width: 100%;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+ul>li {
+    position: relative;
+}
+
+span {
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.2;
+    opacity: 0;
+    color: red;
+    position: absolute;
+    inset: 0;
+    align-items: center;
+}
+
+span:hover {
+    opacity: 0.3;
+}
+
+span:has(i:hover) {
+    opacity: 1;
+  }
+
+.suma {
+    font-size: x-small;
+    background-color: white;
